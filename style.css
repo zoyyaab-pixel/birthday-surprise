@@ -1,0 +1,73 @@
+body{
+margin:0;
+background:#7a0000;
+font-family:'Patrick Hand',cursive;
+overflow:hidden;
+}
+
+#page1{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:#7a0000;
+}
+
+h1{
+font-family:'Great Vibes',cursive;
+color:white;
+font-size:65px;
+font-weight:normal;
+margin-bottom:40px;
+}
+
+.tap{
+color:white;
+font-size:30px;
+margin-bottom:15px;
+animation:blink 1s infinite;
+}
+
+#envelope{
+width:300px;
+animation:bounce 1.2s infinite;
+cursor:pointer;
+}
+
+#page2{
+display:none;
+height:100vh;
+background:#7a0000;
+padding:25px;
+color:white;
+align-items:center;
+justify-content:center;
+gap:35px;
+}
+
+.photo img{
+width:260px;
+border-radius:10px;
+box-shadow:0 0 20px rgba(0,0,0,.3);
+}
+
+.text{
+max-width:450px;
+font-size:28px;
+line-height:1.6;
+}
+
+.text h2{
+font-size:50px;
+margin-bottom:20px;
+}
+
+@keyframes bounce{
+0%,100%{transform:translateY(0);}
+50%{transform:translateY(-18px);}
+}
+
+@keyframes blink{
+50%{opacity:.3;}
+}
