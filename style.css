@@ -137,7 +137,7 @@ body{
 .photo{
     width:95px;
     background:white;
-    padding:5px 5px 18px;
+    padding:5px 5px 15px;
     transform:rotate(-8deg);
     position:relative;
     box-shadow:0 6px 15px rgba(0,0,0,.35);
@@ -155,8 +155,9 @@ body{
 }
 
 .photo img{
-    width:100%;
-    height:auto;
+    width:85px;
+    height:120px;
+    object-fit:cover;
     display:block;
 }
 
