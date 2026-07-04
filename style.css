@@ -155,9 +155,8 @@ body{
 }
 
 .photo img{
-    width:85px;
-    height:100px;
-    object-fit:cover;
+    width:100%;
+    height:auto;
     display:block;
 }
 
