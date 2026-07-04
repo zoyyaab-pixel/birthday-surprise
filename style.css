@@ -135,14 +135,12 @@ body{
 }
 
 .photo{
-    width:65px;
-    height:95px;
-    overflow:hidden;
+    width:115px;
     background:white;
-    padding:5px 5px 15px;
+    padding:7px 7px 28px;
     transform:rotate(-8deg);
     position:relative;
-    box-shadow:0 6px 15px rgba(0,0,0,.35);
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
 }
 
 .photo::before{
@@ -158,15 +156,13 @@ body{
 
 .photo img{
     width:100%;
-    height:100%;
+    height:145px;
     object-fit:cover;
-    object-position:center;
     display:block;
 }
 
 .text{
-    width:180px;
-    color:white;
+    width:170px;
 }
 
 .text h2{
