@@ -29,7 +29,12 @@ overflow:hidden;
     z-index: 0;
 }
 }
-
+#page1 h1,
+#page1 .tap,
+#page1 #envelope{
+    position: relative;
+    z-index: 1;
+}
 h1{
     font-family:'Great Vibes', cursive;
     color:white;
