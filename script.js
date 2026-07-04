@@ -8,4 +8,4 @@ envelope.addEventListener("click", () => {
     page2.style.display = "flex";
 
     music.play();
-});
+}); 
