@@ -135,11 +135,12 @@ body{
 }
 
 .photo{
+    width:95px;
     background:white;
-    padding:6px 6px 22px;
+    padding:5px 5px 18px;
     transform:rotate(-8deg);
     position:relative;
-    box-shadow:0 8px 20px rgba(0,0,0,.35);
+    box-shadow:0 6px 15px rgba(0,0,0,.35);
 }
 
 .photo::before{
