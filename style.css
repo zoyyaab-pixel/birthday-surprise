@@ -75,13 +75,18 @@ box-shadow:0 0 20px rgba(0,0,0,.3);
 }
 
 .text{
-max-width:500px;
-font-size:28px;
-line-height:1.6;
+    max-width:280px;
+    color:white;
 }
+
 .text h2{
-font-size:50px;
-margin-bottom:20px;
+    color:white;
+    font-size:34px;
+}
+.text p{
+    color:white;
+    font-size:18px;
+    line-height:1.8;
 }
 
 @keyframes bounce{
