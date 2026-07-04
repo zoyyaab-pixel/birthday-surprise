@@ -163,19 +163,15 @@ body{
 }
 
 .text{
-    width:170px;
+    color: #ffffff;
 }
 
 .text h2{
-    font-family:'Patrick Hand',cursive;
-    font-size:20px;
-    margin-bottom:10px;
+    color: #ffffff;
 }
 
 .text p{
-    font-family:'Patrick Hand',cursive;
-    font-size:11px;
-    line-height:1.45;
+    color: #ffffff;
 }
 
 @keyframes bounce{
