@@ -136,7 +136,7 @@ body{
 
 .photo{
     background:white;
-    padding:8px 8px 28px;
+    padding:6px 6px 22px;
     transform:rotate(-8deg);
     position:relative;
     box-shadow:0 8px 20px rgba(0,0,0,.35);
@@ -145,16 +145,16 @@ body{
 .photo::before{
     content:"";
     position:absolute;
-    width:55px;
-    height:16px;
+    width:40px;
+    height:12px;
     background:#d8c7a0;
-    top:-10px;
+    top:-8px;
     left:50%;
     transform:translateX(-50%);
 }
 
 .photo img{
-    width:105px;
+    width:85px;
     display:block;
 }
 
