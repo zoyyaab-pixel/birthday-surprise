@@ -48,7 +48,19 @@ h1{
     margin-right:240px;
     margin-bottom:-40px;
 }
+.envelope-box{
+    display:flex;
+    align-items:center;
+    gap:30px;
+}
 
+.tap{
+    color:white;
+    font-size:28px;
+    font-family:'Patrick Hand',cursive;
+    animation:blink 1s infinite;
+    margin:0;
+}
 #envelope{
     width:300px;
     animation:bounce 1.2s infinite;
