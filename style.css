@@ -30,11 +30,10 @@ animation:blink 1s infinite;
 }
 
 #envelope{
-width:300px;
+width:180px;
 animation:bounce 1.2s infinite;
 cursor:pointer;
 }
-
 #page2{
 display:none;
 flex-direction:row;
