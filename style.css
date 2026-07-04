@@ -172,3 +172,29 @@ body{
 @keyframes blink{
 50%{opacity:.3;}
 }
+
+@media (min-width:768px){
+
+    .page2-content{
+
+        flex-direction:row;
+
+        gap:45px;
+
+        text-align:left;
+
+    }
+
+    .photo img{
+
+        width:220px;
+
+    }
+
+    .text{
+
+        max-width:380px;
+
+    }
+
+}
