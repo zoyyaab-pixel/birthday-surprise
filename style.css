@@ -6,34 +6,34 @@ overflow:hidden;
 }
 
 #page1{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background: white;
-    overflow: hidden;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100vh;
+    background:white;
+    position:relative;
+    overflow:hidden;
 }
 
 #page1::before{
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 100%;
-    height: 420px;
-    background: #7a0000;
-    z-index: 0;
-
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    width:100%;
+    aspect-ratio:16/9;
+    background:#7a0000;
+    z-index:0;
 }
+
 #page1 h1,
 #page1 .tap,
-#page1 #envelope{
-    position: relative;
-    z-index: 1;
+#page1 .envelope-box{
+    position:relative;
+    z-index:1;
 }
 h1{
     font-family:'Great Vibes', cursive;
