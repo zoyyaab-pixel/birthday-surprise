@@ -164,20 +164,21 @@ body{
 }
 
 .text{
-    width:210px;
+    flex:1;
+    margin-left:18px;
     color:white;
 }
 
 .text h2{
-    margin:0 0 10px;
-    font-size:34px;
+    margin:0 0 8px;
+    font-size:24px;
     color:white;
 }
 
 .text p{
     margin:0;
-    font-size:15px;
-    line-height:1.5;
+    font-size:13px;
+    line-height:1.4;
     color:white;
 }
 
