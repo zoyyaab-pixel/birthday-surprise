@@ -149,6 +149,8 @@ body{
 
 .photo img{
     width:170px;
+    height:auto;
+    display:block;
 }
 
 .text{
